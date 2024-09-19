@@ -1,15 +1,17 @@
-
 <html>
     <head>
         <link rel="stylesheet" href="ChromeExtensionTaskList.css">
     </head>
     <body>
-       <input type="text" id="input-el"/>
-       <button id="task-btn">TASK</button>
-       <button id="save-btn">SAVE WEBSITE</button>
-       <button id="delete-btn">DELETE ALL</button>
-       <ul id="ul-el">
-        </ul>
-       <script src="ChromeExtensionTaskList.js"></script>
+        <div class="container">
+            <h2>Task List</h2>
+            <input type="text" id="input-el" placeholder="Enter your task here..."/>
+            <button id="task-btn">ADD TASK</button>
+            <button id="delete-btn">DELETE ALL</button>
+            <div>Tasks:</div>
+            <ul id="output"></ul>
+        </div>
+        <script src="ChromeExtensionTaskList.js"></script>
     </body>
 </html>
+

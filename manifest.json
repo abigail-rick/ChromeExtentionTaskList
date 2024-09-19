@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Task List",
+    "permissions": [
+        "tabs",
+        "storage"
+      ],
+    "action": {
+        "default_popup": "ChromeExtensionTaskList.html",
+        "default_icon": "images/paperPen.png"
+        }
+    }
